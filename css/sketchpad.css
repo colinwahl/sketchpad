@@ -1,0 +1,17 @@
+.square{
+	height: 25px;
+	width: 25px;
+	background: red;
+	margin: 1px;
+}
+
+.grid{
+	height: 960;
+	width: 960;
+	float: left;
+}
+
+.coloredSquare{
+	background: blue;
+	margin: 1px;
+}
