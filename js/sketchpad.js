@@ -26,17 +26,16 @@ function createGrid(){
 
 function draw(thing){
 
-	var bSize = $(".square").css("width");
+	var bSize = (960/length)-2;
 	$(thing).removeClass("square");
 	$(thing).addClass("coloredSquare");
-	$(".coloredSquare").css({"height" : bSize, "width" : bSize});
+	$(".coloredSquare").css({"margin" : "1px", "height" : bSize, "width" : bSize});
 
 }
 
-/*function clear(){
+function clear(){
 
-	$(".square").empty();
-	$(".coloredSquare").empty();
-	createGrid(length);
+	$("div").empty();
+	createGrid();
 
-}*/
+}
