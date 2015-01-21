@@ -4,6 +4,12 @@ $(document).ready(function() {
 
 createGrid();
 
+	$("#button").click(function(){
+		$("#grid").empty();
+		length = prompt("What would you like the new size to be?");
+		createGrid();
+	});
+
 });
 
 
@@ -33,9 +39,3 @@ function draw(thing){
 
 }
 
-function clear(){
-
-	$("div").empty();
-	createGrid();
-
-}

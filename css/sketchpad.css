@@ -5,13 +5,15 @@
 	margin: 1px;
 }
 
-.grid{
-	height: 960;
-	width: 960;
-	float: left;
-}
-
 .coloredSquare{
 	background: blue;
 	margin: 1px;
+}
+
+.button{
+	clear: both;
+	color: black;
+  	border-radius: 4px;
+   	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+   	margin-left: 460px;
 }
